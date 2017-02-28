@@ -1,13 +1,47 @@
 body{
-	background: purple;
+  font-family: 'Play', sans-serif;
+  background: linear-gradient(to left, #3494E6 , #EC6EAD);
+  text-align: center;
 }
 
 $txt-color: red;
 
-h2{
+/*h2{
 	color: $txt-color;
 }
 
 h3{
 	color: green;
+}*/
+
+.navbar{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+a{
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.row{
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+}
+
+img{
+  width: 85%;
+}
+
+
+.col-md-4{
+  margin: 0 auto;
+  text-align: center;
+}
+.caption{
+  font-size: 12px;
 }
